@@ -24,4 +24,3 @@ CREATE TABLE aanbevolen (
    name VARCHAR(255),
    description TEXT
  );
-
