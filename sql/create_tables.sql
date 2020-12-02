@@ -25,4 +25,3 @@ CREATE TABLE aanbevolen (
    description TEXT
  );
 
- nee
