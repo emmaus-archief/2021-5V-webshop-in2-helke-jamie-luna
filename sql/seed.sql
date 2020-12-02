@@ -29,6 +29,22 @@ insert into products (name, description, color, soort, code, price) values ('', 
 insert into products (name, description, color, soort, code, price) values ('', '', '', '', '531150277-0', 14.5);
 insert into products (name, description, color, soort, code, price) values ('', '', '', '', '891005079-9', 10.5);
 
+insert into soort (name) values ('adult'); 1
+insert into soort (name) values ('child'); 2 
+insert into soort (name) values ('disposable');  3
+insert into soort (name) values ('screen'); 4
+
+insert into color (name, description) values ('black', 'NULL');
+insert into color (name, description) values ('white'. 'NULL');
+insert into color (name, description) values ('blauw', 'NULL');
+insert into color (name, description) values ('pattern', 'een patroon, dat bestaat uit verschillende kleuren');
+insert into color (name, description) values ('print', 'een plaatje van iets'); 
+insert into color (name, description) values ('clear', 'transparant'); 
+insert into color (name, description) values ('red', 'NULL'); 
+insert into color (name, description) values ('blue', 'NULL'); 
+insert into color (name, description) values ('green', 'NULL'); 
+insert into color (name, description) values ('grey', 'NULL'); 
+
 /* insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
 Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '462458388-4', 11.5);
@@ -245,15 +261,3 @@ insert into products (name, description, code, price) values ('Life and Adventur
 Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
 
 Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', '651860377-1', 14.5); */
-
-insert into soort (name) values ('adult');
-insert into soort (name) values ('child');
-insert into soort (name) values ('disposable'); 
-insert into soort (name) values ('screen');
-
-insert into color (name, description) values ('black', 'NULL'); 
-insert into color (name, description) values ('white'. 'NULL'); 
-insert into color (name, description) values ('blauw', 'NULL'); 
-insert into color (name, description) values ('pattern', 'een patroon, dat bestaat uit verschillende kleuren'); 
-insert into color (name, description) values ('print', 'een plaatje van iets'); 
-insert into color (name, description) values ('clear', 'transparant'); 
