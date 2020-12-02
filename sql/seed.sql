@@ -24,15 +24,11 @@ insert into products (name, description, color, soort, code, price) values ('Zwa
 insert into products (name, description, color, soort, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
 insert into products (name, description, color, soort, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
 
-/* insert into products (name, description, color, soort, code, price) values ('', '', '', '', '462606529-5', 12);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '094829684-4', 12.5);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '531150277-0', 14.5);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '891005079-9', 10.5);
 
-insert into soort (name) values ('adult'); 1
-insert into soort (name) values ('child'); 2 
-insert into soort (name) values ('disposable');  3
-insert into soort (name) values ('screen'); 4
+insert into soort (name) values ('adult'); 
+insert into soort (name) values ('child'); 
+insert into soort (name) values ('disposable');  
+insert into soort (name) values ('screen'); 
 
 insert into color (name, description) values ('black', 'NULL');
 insert into color (name, description) values ('white'. 'NULL');
@@ -45,8 +41,13 @@ insert into color (name, description) values ('blue', 'NULL');
 insert into color (name, description) values ('green', 'NULL'); 
 insert into color (name, description) values ('grey', 'NULL'); 
 
-/* insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+/* insert into products (name, description, color, soort, code, price) values ('', '', '', '', '462606529-5', 12);
+insert into products (name, description, color, soort, code, price) values ('', '', '', '', '094829684-4', 12.5);
+insert into products (name, description, color, soort, code, price) values ('', '', '', '', '531150277-0', 14.5);
+insert into products (name, description, color, soort, code, price) values ('', '', '', '', '891005079-9', 10.5);
 
+
+/* insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', '462458388-4', 11.5);
 insert into products (name, description, code, price) values ('Lucky Break (a.k.a. Paperback Romance)', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', '724683964-X', 10.5);
 insert into products (name, description, code, price) values ('Elvis: That''s the Way It Is', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
