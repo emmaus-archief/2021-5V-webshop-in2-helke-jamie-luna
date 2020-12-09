@@ -5,8 +5,7 @@
 --
 
 insert into products (name, description, color_id, soort_id, code, price) values ('Furry Mondkapje', 'Mondkapje met Furry afbeelding voor Furries.', '4', '1', '816905633-0', 20.0);
-insert into products (name, description, color_id, soort_id, code, price) values ('Dora Mondkapje', 'Dora is voor jong en oud, voel je vrij om als 40-jarige dit mondkapje te kopen.', '5', '2', '077030122-3', 9,99);
-insert into products (name, description, color_id, soort_id, code, price) values ('Rick and Morty Mondkapje', 'PICKLE RICK!!!!', '5', '1', '445924201-X', 13.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Rick and Morty Mondkapje', 'PICKLE RICK!!!!', '5', '3', '445924201-X', 13.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Matzwart Mondkapje', 'Complete darkness on your face.', '1', '1', '693155505-7', 13.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Design Your Own', 'Zet alles wat je maar wilt op het mondkapje. Je kat, je gezicht of gewoon een foto.', '5', '1', '686928463-6', 14);
 insert into products (name, description, color_id, soort_id, code, price) values ('Doorzichtig Gezichtsscherm', 'Perfect voor mensen die niet onzeker zijn over hun uiterlijk.', '6', '4', '492662523-7', 15);
@@ -23,6 +22,7 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Zwart Mondkapje met glitters', 'Glitters! Glitters! En nog meer glitters!', '1', '2', '514202783-3', 14.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Dora Mondkapje', 'Dora is voor jong en oud, voel je vrij om als 40-jarige dit mondkapje te kopen.', '5', '2', '077030122-3', 9,99);
 
 
 insert into soort (name) values ('adult'); 
