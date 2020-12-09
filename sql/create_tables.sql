@@ -4,8 +4,8 @@ CREATE TABLE products (
   code VARCHAR(15),
   name VARCHAR(255),
   description TEXT,
-  color INTEGER,
-  soort INTEGER,
+  color_id INTEGER,
+  soort_id INTEGER,
   price NUMERIC(10, 2)
 );
 

@@ -4,25 +4,25 @@
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, color, soort, code, price) values ('Furry Mondkapje', 'Mondkapje met Furry afbeelding voor Furries.', '4', '1', '816905633-0', 20.0);
-insert into products (name, description, color, soort, code, price) values ('Dora Mondkapje', 'Dora is voor jong en oud, voel je vrij om als 40-jarige dit mondkapje te kopen.', '5', '2', '077030122-3', 9,99);
-insert into products (name, description, color, soort, code, price) values ('Rick and Morty Mondkapje', 'PICKLE RICK!!!!', '5', '1', '445924201-X', 13.5);
-insert into products (name, description, color, soort, code, price) values ('Matzwart Mondkapje', 'Complete darkness on your face.', '1', '1', '693155505-7', 13.5);
-insert into products (name, description, color, soort, code, price) values ('Design Your Own', 'Zet alles wat je maar wilt op het mondkapje. Je kat, je gezicht of gewoon een foto.', '5', '1', '686928463-6', 14);
-insert into products (name, description, color, soort, code, price) values ('Doorzichtig Gezichtsscherm', 'Perfect voor mensen die niet onzeker zijn over hun uiterlijk.', '6', '4', '492662523-7', 15);
-insert into products (name, description, color, soort, code, price) values ('Wit Mondkapje', 'Matched met lichte kleuren', '2', '1', '313191299-5', 10.5);
-insert into products (name, description, color, soort, code, price) values ('Cherry Mondkapje', 'Een mooie dieprode kersen kleur.', '7', '1', '123989705-7', 10.5);
-insert into products (name, description, color, soort, code, price) values ('Mondkapje wit met rode stippen', 'Op een grote paddenstoel, wit met rode stippen. Ehh... ik bedoel rood met witte stippen! ', '5', '2', '158335316-X', 13);
-insert into products (name, description, color, soort, code, price) values ('Mondkapje met rode ruitjes', 'Rode ruitjes met blauwe lijnen.', '5', '1', '406911007-0', 12);
-insert into products (name, description, color, soort, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort plastic.', '6', '3', '547253543-3', 14);
-insert into products (name, description, color, soort, code, price) values ('Kerst Mondkapje', 'Groen en rood patroon.', '5', '2', '690994502-6', 10.5);
-insert into products (name, description, color, soort, code, price) values ('Coochie Monster Mondkapje', 'Een monster dat eet en blauw is.', '5', '1', '676124066-2', 12.5);
-insert into products (name, description, color, soort, code, price) values ('Suede Mondkapje (Blauw)', 'Een mooie, exquisite, suede mondkapje in het blauw', '8', '1', '457174385-8', 14);
-insert into products (name, description, color, soort, code, price) values ('Suede Mondkapje (Rood)', 'Een mooie, exquisite, suede mondkapje in het rood', '7', '1', '031445258-3', 13.5);
-insert into products (name, description, color, soort, code, price) values ('Suede Mondkapje (Groen)', 'Een mooie, exquisite, suede mondkapje in het groen', '9', '1', '719322921-4', 12.5);
-insert into products (name, description, color, soort, code, price) values ('Zwart Mondkapje met glitters', 'Glitters! Glitters! En nog meer glitters!', '1', '2', '514202783-3', 14.5);
-insert into products (name, description, color, soort, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
-insert into products (name, description, color, soort, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Furry Mondkapje', 'Mondkapje met Furry afbeelding voor Furries.', '4', '1', '816905633-0', 20.0);
+insert into products (name, description, color_id, soort_id, code, price) values ('Dora Mondkapje', 'Dora is voor jong en oud, voel je vrij om als 40-jarige dit mondkapje te kopen.', '5', '2', '077030122-3', 9,99);
+insert into products (name, description, color_id, soort_id, code, price) values ('Rick and Morty Mondkapje', 'PICKLE RICK!!!!', '5', '1', '445924201-X', 13.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Matzwart Mondkapje', 'Complete darkness on your face.', '1', '1', '693155505-7', 13.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Design Your Own', 'Zet alles wat je maar wilt op het mondkapje. Je kat, je gezicht of gewoon een foto.', '5', '1', '686928463-6', 14);
+insert into products (name, description, color_id, soort_id, code, price) values ('Doorzichtig Gezichtsscherm', 'Perfect voor mensen die niet onzeker zijn over hun uiterlijk.', '6', '4', '492662523-7', 15);
+insert into products (name, description, color_id, soort_id, code, price) values ('Wit Mondkapje', 'Matched met lichte kleuren', '2', '1', '313191299-5', 10.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Cherry Mondkapje', 'Een mooie dieprode kersen kleur.', '7', '1', '123989705-7', 10.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Mondkapje wit met rode stippen', 'Op een grote paddenstoel, wit met rode stippen. Ehh... ik bedoel rood met witte stippen! ', '5', '2', '158335316-X', 13);
+insert into products (name, description, color_id, soort_id, code, price) values ('Mondkapje met rode ruitjes', 'Rode ruitjes met blauwe lijnen.', '5', '1', '406911007-0', 12);
+insert into products (name, description, color_id, soort_id, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort_id plastic.', '6', '3', '547253543-3', 14);
+insert into products (name, description, color_id, soort_id, code, price) values ('Kerst Mondkapje', 'Groen en rood patroon.', '5', '2', '690994502-6', 10.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Coochie Monster Mondkapje', 'Een monster dat eet en blauw is.', '5', '1', '676124066-2', 12.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Blauw)', 'Een mooie, exquisite, suede mondkapje in het blauw', '8', '1', '457174385-8', 14);
+insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Rood)', 'Een mooie, exquisite, suede mondkapje in het rood', '7', '1', '031445258-3', 13.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Groen)', 'Een mooie, exquisite, suede mondkapje in het groen', '9', '1', '719322921-4', 12.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Zwart Mondkapje met glitters', 'Glitters! Glitters! En nog meer glitters!', '1', '2', '514202783-3', 14.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
 
 
 insert into soort (name) values ('adult'); 
@@ -41,10 +41,10 @@ insert into color (name, description) values ('blue', 'NULL');
 insert into color (name, description) values ('green', 'NULL'); 
 insert into color (name, description) values ('grey', 'NULL'); 
 
-/* insert into products (name, description, color, soort, code, price) values ('', '', '', '', '462606529-5', 12);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '094829684-4', 12.5);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '531150277-0', 14.5);
-insert into products (name, description, color, soort, code, price) values ('', '', '', '', '891005079-9', 10.5);
+/* insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '462606529-5', 12);
+insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '094829684-4', 12.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '531150277-0', 14.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '891005079-9', 10.5);
 
 
 /* insert into products (name, description, code, price) values ('Ingmar Bergman on Life and Work (Ingmar Bergman: Om liv och arbete)', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
