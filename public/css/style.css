@@ -1,3 +1,7 @@
+body {
+  background-color: #cecece;;
+}
+
 .toast {
     /* dirty: below 'card' button  */
     position: fixed; 
@@ -16,7 +20,7 @@
   width: 80%; 
   height: inherit; 
   margin-bottom: 20px;
-   margin-top: 20px;
+  margin-top: 20px;
 }
 
 .product img {
