@@ -13,7 +13,7 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Cherry Mondkapje', 'Een mooie dieprode kersen kleur.', '7', '1', '123989705-7', 10.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Mondkapje wit met rode stippen', 'Op een grote paddenstoel, wit met rode stippen. Ehh... ik bedoel rood met witte stippen! ', '5', '2', '158335316-X', 13);
 insert into products (name, description, color_id, soort_id, code, price) values ('Mondkapje met rode ruitjes', 'Rode ruitjes met blauwe lijnen.', '5', '1', '406911007-0', 12);
-insert into products (name, description, color_id, soort_id, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort_id plastic.', '6', '3', '547253543-3', 14);
+insert into products (name, description, color_id, soort_id, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort plastic.', '6', '3', '547253543-3', 14);
 insert into products (name, description, color_id, soort_id, code, price) values ('Kerst Mondkapje', 'Groen en rood patroon.', '5', '2', '690994502-6', 10.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Coochie Monster Mondkapje', 'Een monster dat eet en blauw is.', '5', '1', '676124066-2', 12.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Blauw)', 'Een mooie, exquisite, suede mondkapje in het blauw', '8', '1', '457174385-8', 14);
@@ -22,8 +22,8 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Zwart Mondkapje met glitters', 'Glitters! Glitters! En nog meer glitters!', '1', '2', '514202783-3', 14.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
-insert into products (name, description, color_id, soort_id, code, price) values ('Dora Mondkapje', 'Dora is voor jong en oud, voel je vrij om als 40-jarige dit mondkapje te kopen.', '5', '2', '077030122-3', 9,99);
-
+insert into products (name, description, color_id, soort_id, code, price) values ('Paw Patrol Mondkapje', 'Paw Patrol is eem programma voor kinderen over hondjes die een beroep uitoefenen.', '4', '2', '462606529-5', 12);
+insert into products (name, description, color_id, soort_id, code, price) values ('Diego Mondkapje', 'De neef van Dora de avonturer', '5', '2', '462606529-5', 12);
 
 insert into soort (name) values ('adult'); 
 insert into soort (name) values ('child'); 
@@ -31,7 +31,7 @@ insert into soort (name) values ('disposable');
 insert into soort (name) values ('screen'); 
 
 insert into color (name, description) values ('black', 'NULL');
-insert into color (name, description) values ('white'. 'NULL');
+insert into color (name, description) values ('white', 'NULL');
 insert into color (name, description) values ('blauw', 'NULL');
 insert into color (name, description) values ('pattern', 'een patroon, dat bestaat uit verschillende kleuren');
 insert into color (name, description) values ('print', 'een plaatje van iets'); 
@@ -40,6 +40,8 @@ insert into color (name, description) values ('red', 'NULL');
 insert into color (name, description) values ('blue', 'NULL'); 
 insert into color (name, description) values ('green', 'NULL'); 
 insert into color (name, description) values ('grey', 'NULL'); 
+
+insert into aanbevolen (p_id1, pid2) values ('1', '2');
 
 /* insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '462606529-5', 12);
 insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '094829684-4', 12.5);
