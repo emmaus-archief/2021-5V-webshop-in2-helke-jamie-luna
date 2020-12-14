@@ -11,7 +11,8 @@ CREATE TABLE products (
 
 CREATE TABLE aanbevolen (
   ID SERIAL PRIMARY KEY,
-  ID SERIAL PRIMARY KEY
+  p_id1 VARCHAR(255),
+  p_id2 VARCHAR(255)
 );
 
  CREATE TABLE soort (
