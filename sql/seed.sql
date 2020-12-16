@@ -15,6 +15,8 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Mondkapje met rode ruitjes', 'Rode ruitjes met blauwe lijnen.', '5', '1', '406911007-0', 12);
 insert into products (name, description, color_id, soort_id, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort plastic.', '6', '3', '547253543-3', 14);
 insert into products (name, description, color_id, soort_id, code, price) values ('Kerst Mondkapje', 'Groen en rood patroon.', '5', '2', '690994502-6', 10.5);
+insert into products (name, description, color_id, soort_id, code, price) values ('Plastic Mondkapje', 'Hetzelfde als een normaal mondkapje, maar dan van een speciaal soort plastic.', '6', '4', '547253543-3', 14);
+insert into products (name, description, color_id, soort_id, code, price) values ('Kerst Mondkapje', 'Groen en rood patroon.', '5', '3', '690994502-6', 10.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Coochie Monster Mondkapje', 'Een monster dat eet en blauw is.', '5', '1', '676124066-2', 12.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Blauw)', 'Een mooie, exquisite, suede mondkapje in het blauw', '8', '1', '457174385-8', 14);
 insert into products (name, description, color_id, soort_id, code, price) values ('Suede Mondkapje (Rood)', 'Een mooie, exquisite, suede mondkapje in het rood', '7', '1', '031445258-3', 13.5);
@@ -42,6 +44,74 @@ insert into color (name, description) values ('green', 'NULL');
 insert into color (name, description) values ('grey', 'NULL'); 
 
 insert into aanbevolen (p_id1, pid2) values ('1', '2');
+
+/* gebaseerd op soort */
+insert into aanbevolen (p_id1, p_id2) values ('1', '3');
+insert into aanbevolen (p_id1, p_id2) values ('3', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '4');
+insert into aanbevolen (p_id1, p_id2) values ('4', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '6');
+insert into aanbevolen (p_id1, p_id2) values ('6', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '7');
+insert into aanbevolen (p_id1, p_id2) values ('7', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '9');
+insert into aanbevolen (p_id1, p_id2) values ('9', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '12');
+insert into aanbevolen (p_id1, p_id2) values ('12', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '13');
+insert into aanbevolen (p_id1, p_id2) values ('13', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '14');
+insert into aanbevolen (p_id1, p_id2) values ('14', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '15');
+insert into aanbevolen (p_id1, p_id2) values ('15', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '17');
+insert into aanbevolen (p_id1, p_id2) values ('17', '1');
+insert into aanbevolen (p_id1, p_id2) values ('1', '18');
+insert into aanbevolen (p_id1, p_id2) values ('18', '1');
+
+insert into aanbevolen (p_id1, p_id2) values ('8','16');
+insert into aanbevolen (p_id1, p_id2) values ('16','8');
+insert into aanbevolen (p_id1, p_id2) values ('8','19');
+insert into aanbevolen (p_id1, p_id2) values ('19','8');
+insert into aanbevolen (p_id1, p_id2) values ('8','20');
+insert into aanbevolen (p_id1, p_id2) values ('20','8');
+
+insert into aanbevolen (p_id1, p_id2) values ('2','11');
+insert into aanbevolen (p_id1, p_id2) values ('11','2');
+
+insert into aanbevolen (p_id1, p_id2) values ('5','10');
+insert into aanbevolen (p_id1, p_id2) values ('10','5');
+
+/* gebaseerd op color */
+insert into aanbevolen (p_id1, p_id2) values ('3','16');
+insert into aanbevolen (p_id1, p_id2) values ('16','3');
+
+insert into aanbevolen (p_id1, p_id2) values ('2','10');
+
+insert into aanbevolen (p_id1, p_id2) values ('1','19');
+insert into aanbevolen (p_id1, p_id2) values ('19','1');
+
+insert into aanbevolen (p_id1, p_id2) values ('2','4');
+insert into aanbevolen (p_id1, p_id2) values ('4','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','8');
+insert into aanbevolen (p_id1, p_id2) values ('8','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','9');
+insert into aanbevolen (p_id1, p_id2) values ('9','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','11');
+insert into aanbevolen (p_id1, p_id2) values ('11','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','12');
+insert into aanbevolen (p_id1, p_id2) values ('12','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','18');
+insert into aanbevolen (p_id1, p_id2) values ('18','2');
+insert into aanbevolen (p_id1, p_id2) values ('2','20');
+insert into aanbevolen (p_id1, p_id2) values ('20','2');
+
+insert into aanbevolen (p_id1, p_id2) values ('5','10');
+insert into aanbevolen (p_id1, p_id2) values ('10','5');
+
+insert into aanbevolen (p_id1, p_id2) values ('7','14');
+insert into aanbevolen (p_id1, p_id2) values ('14','7');
+
 
 /* insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '462606529-5', 12);
 insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '094829684-4', 12.5);
