@@ -23,7 +23,7 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Grijs Mondkapje', 'Grijs.', '10', '1', '185213824-6', 14.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Animegirl Mondkapje', 'Anime is een Japanse cartoon.', '5', '1', '229696258-0', 11.5);
 insert into products (name, description, color_id, soort_id, code, price) values ('Paw Patrol Mondkapje', 'Paw Patrol is eem programma voor kinderen over hondjes die een beroep uitoefenen.', '4', '2', '462606529-5', 12);
-insert into products (name, description, color_id, soort_id, code, price) values ('Diego Mondkapje', 'De neef van Dora de avonturer', '5', '2', '462606529-5', 12);
+insert into products (name, description, color_id, soort_id, code, price) values ('Diego Mondkapje', 'Doras neef', '2', '5', '648284439-1', 13.5);
 
 insert into soort (name) values ('adult'); 
 insert into soort (name) values ('child'); 
