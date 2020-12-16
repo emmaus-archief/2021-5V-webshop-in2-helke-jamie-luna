@@ -25,6 +25,7 @@ insert into products (name, description, color_id, soort_id, code, price) values
 insert into products (name, description, color_id, soort_id, code, price) values ('Paw Patrol Mondkapje', 'Paw Patrol is eem programma voor kinderen over hondjes die een beroep uitoefenen.', '4', '2', '462606529-5', 12);
 insert into products (name, description, color_id, soort_id, code, price) values ('Diego Mondkapje', 'De neef van Dora de avonturer', '5', '2', '462606529-5', 12);
 
+
 insert into soort (name) values ('adult'); 
 insert into soort (name) values ('child'); 
 insert into soort (name) values ('disposable');  
@@ -40,6 +41,7 @@ insert into color (name, description) values ('red', 'NULL');
 insert into color (name, description) values ('blue', 'NULL'); 
 insert into color (name, description) values ('green', 'NULL'); 
 insert into color (name, description) values ('grey', 'NULL'); 
+
 
 /* gebaseerd op soort */
 insert into aanbevolen (p_id1, p_id2) values ('1', '3');
@@ -107,7 +109,6 @@ insert into aanbevolen (p_id1, p_id2) values ('10','5');
 
 insert into aanbevolen (p_id1, p_id2) values ('7','14');
 insert into aanbevolen (p_id1, p_id2) values ('14','7');
-
 
 
 /* insert into products (name, description, color_id, soort_id, code, price) values ('', '', '', '', '462606529-5', 12);
