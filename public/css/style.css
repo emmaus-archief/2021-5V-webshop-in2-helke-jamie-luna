@@ -1,6 +1,14 @@
-body {
-  background-color: #cecece;;
+
+h1 {
+  color: rgb(15, 2, 66)
 }
+
+h2 {
+  color: rgb(15, 2, 66)
+}
+
+body {
+  background-color: rgb(153, 153, 255); 
 
 .toast {
     /* dirty: below 'card' button  */
